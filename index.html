@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script src="javascript/jquery.fullPage.js"></script>
+	<script src="javascript/doc_ready.js"></script>
+	<link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+
+<!--
+	<header class="header animate">
+		<div class="header-wrapper">
+			<ul class="header-menu">
+				<li>
+					<a href="#secondPage">Projects</a>
+					<a href="#thirdPage">Lifetime</a>
+					<a href="#fourthPage">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+-->
+
+	<ul id="menu">
+		<li data-menuanchor="Home"><a href="#Home">Home</a></li>
+		<li data-menuanchor="Projects"><a href="#Projects">Projects</a></li>
+		<li data-menuanchor="Lifetime"><a href="#Lifetime">Lifetime</a></li>
+		<li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
+	</ul>
+
+	<div id="fullpage">
+		<div class="section active">
+			<div class="intro-wrapper">
+				<div class="slide" data-anchor="slide1">
+					<div class="intro">
+						<img class="img-circle" src="imgs/prof.jpg">
+						<h1>Hi!  I'm Tim Nguyen.</h1>
+						<h3>A double major of Engineering and Computer Science at Swarthmore College.</h3>
+						<h3>Check out what I'm up to. </h3>
+					</div>
+				</div>
+
+				<div class="slide" data-anchor="slide2">
+					<div class="intro-info">
+						<h1>What have I taken in college?</h1>
+						<div class="courses">
+							<h2> Freshman </h2>
+							<h5>Linear Algebra</h5>
+							<h5>Engineering Methodology</h5>
+							<h5>General Physics I</h5>
+							<h5>FYS : Transition to College Writing</h5>
+							<h5>Intro to Economics</h5>
+							<hr>
+							<h5>Intro to Computer Science</h5>
+							<h5>Mechanical Engineering</h5>
+							<h5>Multivariable Calculus</h5>
+							<h5>Intro to Psychology</h5>
+						</div>
+						<div class="courses">
+							<h2> Sophomore </h2>
+							<h5>Computer Systems</h5>
+							<h5>Electical Circuit Analysis</h5>
+							<h5>Digital Systems / Computer Engineering</h5>
+							<h5>Finanical Accounting</h5> <h5>&nbsp<h5>
+							<hr>
+							<h5>Data Structures and Algorithms</h5>
+							<h5>Linear Physical Systems</h5>
+							<h5>Differential Equations</h5>
+							<h5>Experimentation for Engineering Design</h5>
+						</div>
+						<div class="courses">
+							<h2> Junior </h2>
+							<h5>Adaptive Robotics</h5>
+							<h5>Computer Networks</h5>
+							<h5>Thermofluid Mechanics</h5>
+							<h5>Spacetime and Quanta</h5> <h5>&nbsp<h5>
+							<hr>
+						</div>
+						<div class="courses">
+							<h2> Senior </h2>
+							<h5> Come back next year! </h5>
+							<h5>&nbsp<h5>
+							<h5>&nbsp<h5>
+							<h5>&nbsp<h5>
+							<h5>&nbsp<h5>
+							<hr>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section">
+			<div class="projects" data-anchor="projects">
+				<div class="tiles">
+					<div class="project-tile">
+						<div class="project-description"> Project 1 </div>
+					</div>
+					<div class="project-tile">
+						<div class="project-description"> Project 2 </div>
+					</div>
+					<div class="project-tile">
+						<div class="project-description"> Project 3 </div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="section">Lifetime</div>
+		<div class="section">Contact</div>
+	</div>
+
+
+</body>
+</html>

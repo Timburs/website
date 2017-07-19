@@ -1,0 +1,98 @@
+.intro {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 300px;
+}
+
+.img-circle {
+	border-radius:50%;
+	height: 35%;
+	width: 35%;
+}
+
+.section {
+	text-align: center;
+	color: #474747;
+}
+
+.slide .fp-tableCell {
+	vertical-align: top;
+}
+
+.intro-info {
+	margin-top: 10%;
+}
+
+.tiles {
+	display: table;
+	margin: 0 auto;
+}
+
+.project-tile {
+	background: #ffffff;
+	display: table;
+	float:left;
+	width:300px;
+	height:300px;
+	margin-right:30px;
+	opacity:0.3;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+
+.project-tile:hover {
+	opacity:1;
+}
+
+.courses {
+	display: inline-block;
+	padding-right: 15px;
+	vertical-align: top;
+}
+
+
+/***********/
+
+#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #474747;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+
+#menu li.active{
+	background:#474747;
+	background: #ecf0f1;
+	color: #474747;
+}
+#menu li a{
+	text-decoration:none;
+	color: #474747;
+}
+#menu li.active a:hover{
+	color: #474747;
+}
+#menu li:hover{
+	background: #ecf0f1;
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #474747;
+}
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
