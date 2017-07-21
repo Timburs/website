@@ -3,7 +3,11 @@
 	margin-right: 100px;
 	padding: 300px;
 }
-
+.logos {
+	float:right;
+	margin-top: 15px;
+	margin-right:20px;
+}
 .img-circle {
 	border-radius:50%;
 	height: 35%;
@@ -12,15 +16,7 @@
 
 .section {
 	text-align: center;
-	color: #474747;
-}
-
-.slide .fp-tableCell {
-	vertical-align: top;
-}
-
-.intro-info {
-	margin-top: 10%;
+	color: #fff;
 }
 
 .tiles {
@@ -29,7 +25,7 @@
 }
 
 .project-tile {
-	background: #ffffff;
+	background: #24305e;
 	display: table;
 	float:left;
 	width:300px;
@@ -50,7 +46,12 @@
 	vertical-align: top;
 }
 
-
+a {
+	color: inherit;
+}
+#freshman, #sophomore, #junior, #senior {
+	visibility: hidden;
+}
 /***********/
 
 #menu li {

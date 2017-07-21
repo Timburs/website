@@ -7,7 +7,7 @@ $(document).ready(function() {
 		//Scrolling
 		css3: true,
 		scrollingSpeed: 1000,
-		autoScrolling: false,
+		autoScrolling: true,
 
 		//Accessibility
 		keyboardScrolling: true,
@@ -17,7 +17,7 @@ $(document).ready(function() {
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor : ['#fff', '#2ecc71', '#fff', "#2ecc71"],
+		sectionsColor : ['#24305e', '#24305e', '#24305e', "#24305e"],
 
 		//Selectors
 		lazyLoading: true,
@@ -32,4 +32,16 @@ $(document).ready(function() {
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
 	});
 
+	$('.fp-controlArrow.fp-next').click(function() {
+		$('#freshman').css('visibility','visible').hide().fadeIn(3000);
+		$('#sophomore').css('visibility','visible').hide().fadeIn(5000);
+		$('#junior').css('visibility','visible').hide().fadeIn(7000);
+		$('#senior').css('visibility','visible').hide().fadeIn(9000);
+	});
+
+	$('i').hover(function() {
+		$(this).css('color','#fff');
+	}, function() {
+		$(this).css('color','black');
+	})
 });
