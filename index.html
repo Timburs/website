@@ -13,7 +13,7 @@
 
 	<script src="javascript/jquery-3.2.1.js"></script>
 	<script src="javascript/jquery.fullPage.js"></script>
-	<script src="javascript/doc_ready.js"></script>
+	<script src="javascript/main.js"></script>
 	<link rel="stylesheet" href="css/custom.css">
 
 </head>
@@ -23,7 +23,7 @@
 	<ul id="menu">
 		<li data-menuanchor="Home"><a href="#Home">Home</a></li>
 		<li data-menuanchor="Projects"><a href="#Projects">Projects</a></li>
-		<li data-menuanchor="Lifetime"><a href="#Lifetime">Lifetime</a></li>
+		<li data-menuanchor="About"><a href="#About">About</a></li>
 		<li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
 		<div class="logos">
 			<a href="https://github.com/Timburs" target="_blank"><i class="fa fa-github fa-2x"></i></a>
@@ -32,63 +32,12 @@
 	</ul>
 
 	<div id="fullpage">
-		<div class="section active">
+		<div class="section" id="section1">
 			<div class="intro-wrapper">
-				<div class="slide" data-anchor="slide1">
-					<div class="intro">
-						<img class="img-circle" src="imgs/prof.jpg">
-						<h1>Hi!  I'm Tim Nguyen.</h1>
-						<h3>A double major of Engineering and Computer Science at Swarthmore College.</h3>
-						<h3>Check out what I'm up to. </h3>
-					</div>
-				</div>
-
-				<div class="slide" data-anchor="slide2">
-					<div class="intro-info">
-						<h1>What have I taken in college?</h1>
-						<div class="courses" id="freshman">
-							<h2> Freshman </h2>
-							<h5>Linear Algebra</h5>
-							<h5>Engineering Methodology</h5>
-							<h5>General Physics I</h5>
-							<h5>FYS : Transition to College Writing</h5>
-							<h5>Intro to Economics</h5>
-							<hr>
-							<h5>Intro to Computer Science</h5>
-							<h5>Mechanical Engineering</h5>
-							<h5>Multivariable Calculus</h5>
-							<h5>Intro to Psychology</h5>
-						</div>
-						<div class="courses" id="sophomore">
-							<h2> Sophomore </h2>
-							<h5>Computer Systems</h5>
-							<h5>Electical Circuit Analysis</h5>
-							<h5>Digital Systems / Computer Engineering</h5>
-							<h5>Finanical Accounting</h5> <h5>&nbsp<h5>
-							<hr>
-							<h5>Data Structures and Algorithms</h5>
-							<h5>Linear Physical Systems</h5>
-							<h5>Differential Equations</h5>
-							<h5>Experimentation for Engineering Design</h5>
-						</div>
-						<div class="courses" id="junior">
-							<h2> Junior </h2>
-							<h5>Adaptive Robotics</h5>
-							<h5>Computer Networks</h5>
-							<h5>Thermofluid Mechanics</h5>
-							<h5>Spacetime and Quanta</h5> <h5>&nbsp<h5>
-							<hr>
-						</div>
-						<div class="courses" id="senior">
-							<h2> Senior </h2>
-							<h5> Come back next year! </h5>
-							<h5>&nbsp<h5>
-							<h5>&nbsp<h5>
-							<h5>&nbsp<h5>
-							<h5>&nbsp<h5>
-							<hr>
-						</div>
-					</div>
+				<div class="intro">
+					<h1>Hi!  I'm Tim Nguyen.</h1>
+					<h3>A student at Swarthmore College.</h3>
+					<h3>Check out what I'm up to. </h3>
 				</div>
 			</div>
 		</div>
@@ -110,10 +59,92 @@
 			</div>
 
 		</div>
-		<div class="section"> Lifetime </div>
-		<div class="section">Contact</div>
-	</div>
+		<div class="section" id="section3">
+			<div class="slide" data-anchor="slide1">
+				<div class="about">
+					<h1>About</h1>
+					<p> I'm currently a rising junior at Swarthmore College with an intended double major of Computer Science and Engineering.
+						I grew up in the small suburbs of Cheltenham, PA. and graduated from Cheltenham Highschool.  I entered Swarthmore with
+						the intention of studying Biochemistry, however, after deciding to try Engineering, I grew fond of their curriculum and
+						Computer Science soon followed.
+					</p>
+				</div>
+			</div>
 
+			<div class="slide" data-anchor="slide2">
+				<div class="experience">
+					<h1>Experience</h1>
+					<p> I have had the opportunity to have two internships so far.  During the summer of 2016, I worked for
+					    <a href="https://www.ericsson.com" target="_blank">Ericsson's</a> mobile app development team.
+						I worked on a corporate survey application used with T-Mobile customers and developed a front-end
+						web application that parsed through large JSON files.
+				    </p>
+					<p> During the summer of 2017, I delved into databases at <a href="https://morganlewis.com" target="_blank">Morgan Lewis</a>
+						, specifically Microsoft SQL Server, and explored how relational databases
+						worked.  I managed a specific database, called InventoryTracker, that kept track of all corporate databases, servers,
+						instances, and applications.  I wrote a front-end .NET application in C# to automate all SQL scripts.
+					</p>
+					<img id="ericsson" src="imgs/ericsson.png" />
+					<img id="morgan" src="imgs/morgan.png" />
+				</div>
+			</div>
+
+			<div class="slide" data-anchor="slide3">
+				<div class="intro-info">
+					<h1>What have I taken in college?</h1>
+					<div class="courses" id="freshman">
+						<h2> Freshman </h2>
+						<h5>Linear Algebra</h5>
+						<h5>Engineering Methodology</h5>
+						<h5>General Physics I</h5>
+						<h5>FYS : Transition to College Writing</h5>
+						<h5>Intro to Economics</h5>
+						<hr>
+						<h5>Intro to Computer Science</h5>
+						<h5>Mechanical Engineering</h5>
+						<h5>Multivariable Calculus</h5>
+						<h5>Intro to Psychology</h5>
+					</div>
+					<div class="courses" id="sophomore">
+						<h2> Sophomore </h2>
+						<h5>Computer Systems</h5>
+						<h5>Electical Circuit Analysis</h5>
+						<h5>Digital Systems / Computer Engineering</h5>
+						<h5>Finanical Accounting</h5> <h5>&nbsp<h5>
+						<hr>
+						<h5>Data Structures and Algorithms</h5>
+						<h5>Linear Physical Systems</h5>
+						<h5>Differential Equations</h5>
+						<h5>Experimentation for Engineering Design</h5>
+					</div>
+					<div class="courses" id="junior">
+						<h2> Junior </h2>
+						<h5>Adaptive Robotics</h5>
+						<h5>Computer Networks</h5>
+						<h5>Thermofluid Mechanics</h5>
+						<h5>Spacetime and Quanta</h5> <h5>&nbsp<h5>
+						<hr>
+					</div>
+					<div class="courses" id="senior">
+						<h2> Senior </h2>
+						<h5> Come back next year! </h5>
+						<h5>&nbsp<h5>
+						<h5>&nbsp<h5>
+						<h5>&nbsp<h5>
+						<h5>&nbsp<h5>
+						<hr>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section4">
+			<div class="contact">
+				asdfasdfkf;skjl;kdjfal;kjfal;kfjal;skjfal;kdsjfal;skfjslkf.<br>
+				asdfasdfkf;skjl;kdjfal;kjfal;kfjal;skjfal;kdsjfal;skfjslkf.<br>
+				asdfasdfkf;skjl;kdjfal;kjfal;kfjal;skjfal;kdsjfal;skfjslkf.
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>
