@@ -5,7 +5,7 @@ $(document).ready(function() {
 		anchors:['Home', 'Projects', 'About', 'Contact'],
 
 		//Scrolling
-		css3: true,
+		css3: false,
 		scrollingSpeed: 1000,
 		autoScrolling: true,
 		scrollBar: true,

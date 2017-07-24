@@ -1,5 +1,7 @@
 html.fp-enabled{
 	font-family: 'Roboto Slab', serif;
+	-webkit-font-smoothing: antialiased;
+	text-decoration-skip: ink;
 }
 
 .intro {
