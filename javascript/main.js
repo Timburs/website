@@ -57,6 +57,13 @@ $(document).ready(function() {
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
 			$('.fp-section').find('.fp-slidesContainer').fadeIn(1000);
 			$.fn.fullpage.setScrollingSpeed(1000);
+			if (index == 3 && slideIndex == 2) {
+				$('.skillbar').each(function(){
+					$(this).find('.skillbar-bar').animate({
+						width:$(this).attr('data-percent')
+					},6000);
+				});
+			}
 		},
 
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
