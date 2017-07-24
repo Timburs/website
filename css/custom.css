@@ -140,12 +140,12 @@ a {
 
 .contact img {
 	border-radius: 50%;
-	height:25%;
-	width: 25%;
+	height:35%;
+	width: 35%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .contact h1 {
