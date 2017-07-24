@@ -8,6 +8,7 @@ $(document).ready(function() {
 		css3: true,
 		scrollingSpeed: 1000,
 		autoScrolling: true,
+		scrollBar: true,
 
 		//Accessibility
 		keyboardScrolling: true,
@@ -24,23 +25,32 @@ $(document).ready(function() {
 
 		//events
 		onLeave: function(index, nextIndex, direction){
-			/*
-			if (direction == 'down') {
-				$('#menu').fadeOut();
+			if (index == 1) {
+				$('.intro-wrapper').fadeOut();
 			}
-			else if (direction == 'up') {
-				$('#menu').fadeIn();
+			if (index == 2) {
+				$('.projects').fadeOut();
 			}
-			*/
-
 			if (index == 3) {
 				$('.about').fadeOut();
+			}
+			if (index == 4) {
+				$('.contact-wrapper').fadeOut();
 			}
 		},
 
 		afterLoad: function(anchorLink, index){
+			if (index == 1) {
+				$('.intro-wrapper').fadeIn();
+			}
+			if (index == 2) {
+				$('.projects').fadeIn();
+			}
 			if(index == 3) {
 				$('.about').fadeIn();
+			}
+			if (index == 4) {
+				$('.contact-wrapper').fadeIn();
 			}
 		},
 
@@ -58,7 +68,6 @@ $(document).ready(function() {
 	$('i').hover(function() {
 		$(this).css('color','#3D9970');
 	}, function() {
-		$(this).css('color','black');
+		$(this).css('color','gray');
 	});
-
 });

@@ -6,6 +6,7 @@
 }
 
 .about {
+	display: none;
 	margin-left: 100px;
 	margin-right: 100px;
 	padding: 300px;
@@ -40,6 +41,7 @@
 	margin-top: .5em;
 	color: #666;
 }
+
 .experience h1 {
 	font-size: 60px;
 	text-align: left;
@@ -54,10 +56,8 @@
 	padding: 50px;
 }
 
-.logos {
-	float:right;
-	margin-top: 15px;
-	margin-right:20px;
+.logos a{
+	padding-right: 5%;
 }
 
 .section {
@@ -70,8 +70,22 @@
 	margin: 0 auto;
 }
 
+.projects {
+	display: none;
+}
+
+.projects h1 {
+	margin-left: 350px;
+	margin-top: -10%;
+	font-size: 60px;
+	text-align: left;
+	text-decoration: underline;
+	-webkit-text-decoration-color: #3D9970;
+	text-decoration-color: #3D9970;
+}
+
 .project-tile {
-	background: #24305e;
+	background: #3D9970;
 	display: table;
 	float:left;
 	width:300px;
@@ -80,6 +94,10 @@
 	opacity:0.3;
 	-webkit-transition: all 1s;
 	transition: all 1s;
+}
+
+.project-description {
+	color:#fff;
 }
 
 .project-tile:hover {
@@ -94,6 +112,25 @@
 
 a {
 	color: inherit;
+	text-decoration: underline;
+	-webkit-text-decoration-color: #3D9970;
+	text-decoration-color: #3D9970;
+}
+
+.contract-wrapper {
+	display: none;
+}
+.contact {
+	margin-top: -15%;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 300px;
+	text-align: left;
+	font-size: 20px;
+}
+
+.contact h1 {
+	font-size: 60px;
 	text-decoration: underline;
 	-webkit-text-decoration-color: #3D9970;
 	text-decoration-color: #3D9970;
