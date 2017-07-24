@@ -1,5 +1,9 @@
+html.fp-enabled{
+	font-family: 'Roboto Slab', serif;
+}
+
 .intro {
-	margin-top: 20%;
+	margin-top: 300px;
 	margin-left: 100px;
 	margin-right: 100px;
 	color: #fff;
@@ -22,7 +26,7 @@
 
 .about h1 {
 	font-size: 60px;
-	margin-top: -15%;
+	margin-top: -100px;
 	text-decoration: underline;
 	-webkit-text-decoration-color: #3D9970;
 	text-decoration-color: #3D9970;
@@ -45,7 +49,7 @@
 .experience h1 {
 	font-size: 60px;
 	text-align: left;
-	margin-top: -20%;
+	margin-top: -200px;
 	text-decoration: underline;
 	-webkit-text-decoration-color: #3D9970;
 	text-decoration-color: #3D9970;
@@ -54,9 +58,12 @@
 .experience img {
 	display: inline-block;
 	padding: 50px;
+	max-width: 100px;
+	max-height: 100px;
 }
 
 .logos a{
+	text-decoration: none;
 	padding-right: 5%;
 }
 
@@ -76,7 +83,7 @@
 
 .projects h1 {
 	margin-left: 350px;
-	margin-top: -10%;
+	margin-top: -100px;
 	font-size: 60px;
 	text-align: left;
 	text-decoration: underline;
@@ -121,7 +128,7 @@ a {
 	display: none;
 }
 .contact {
-	margin-top: -15%;
+	margin-top: -300px;
 	margin-left: 100px;
 	margin-right: 100px;
 	padding: 300px;
@@ -140,15 +147,6 @@ a {
 	text-decoration: underline;
 	-webkit-text-decoration-color: #3D9970;
 	text-decoration-color: #3D9970;
-}
-#morgan {
-	height: 20%;
-	width: 20%;
-}
-
-#ericsson {
-	height: 20%;
-	width: 20%;
 }
 
 #section1 {
