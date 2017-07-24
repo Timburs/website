@@ -129,13 +129,24 @@ a {
 .contract-wrapper {
 	display: none;
 }
+
 .contact {
-	margin-top: -300px;
-	margin-left: 100px;
-	margin-right: 100px;
-	padding: 300px;
+	margin-top: -50px;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 100px;
 	text-align: left;
 	font-size: 20px;
+}
+
+.contact img {
+	border-radius: 50%;
+	height:25%;
+	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
 }
 
 .contact h1 {
