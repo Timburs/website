@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		//Navigation
 		menu: '#menu',
-		anchors:['Home', 'Projects', 'About', 'Contact'],
+		anchors:['Home', 'About', 'Contact'],
 
 		//Scrolling
 		css3: true,
@@ -18,7 +18,7 @@ $(document).ready(function() {
 		//Design
 		controlArrows: true,
 		verticalCentered: true,
-		sectionsColor : ['#fff', '#fff', '#fff', "#fff"],
+		sectionsColor : ['#fff', '#fff', "#fff"],
 
 		//Selectors
 		lazyLoading: true,
@@ -29,12 +29,9 @@ $(document).ready(function() {
 				$('.intro-wrapper').fadeOut();
 			}
 			if (index == 2) {
-				$('.projects').fadeOut();
-			}
-			if (index == 3) {
 				$('.about').fadeOut();
 			}
-			if (index == 4) {
+			if (index == 3) {
 				$('.contact-wrapper').fadeOut();
 			}
 		},
@@ -43,13 +40,10 @@ $(document).ready(function() {
 			if (index == 1) {
 				$('.intro-wrapper').fadeIn();
 			}
-			if (index == 2) {
-				$('.projects').fadeIn();
-			}
-			if(index == 3) {
+			if(index == 2) {
 				$('.about').fadeIn();
 			}
-			if (index == 4) {
+			if (index == 3) {
 				$('.contact-wrapper').fadeIn();
 			}
 		},
